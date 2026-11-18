@@ -9,7 +9,14 @@
     "id": 0
   },
   "detail": {
-    "contributors": [],
+    "contributors": [
+      {
+        "name": "Dewi Puspita Sari"
+      },
+      {
+        "name": "Rahman Hakim"
+      }
+    ],
     "diagrams": [
       {
         "id": 0,
