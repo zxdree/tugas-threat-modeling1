@@ -21,7 +21,7 @@
         "cells": [
           {
             "position": {
-              "x": 169.99999999999966,
+              "x": 59.99999999999966,
               "y": -665
             },
             "size": {
@@ -255,7 +255,7 @@
           },
           {
             "position": {
-              "x": 500,
+              "x": 520,
               "y": -665
             },
             "size": {
@@ -460,6 +460,53 @@
             },
             "target": {
               "cell": "53b3a09b-feea-4c61-8184-d3506e5e3b3d",
+              "port": "677533b7-b230-4dfc-95f2-f8220f6f7d44"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request buka/tutup sesi & jadwal kelas",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request buka/tutup sesi & jadwal kelas"
+            ],
+            "id": "b0731cd3-55a7-4106-a5a9-48f4027fa311",
+            "source": {
+              "cell": "b4b4756e-8771-4917-ba80-ff48f16b6461",
+              "port": "5debb7e1-0ae6-40be-a151-73f29c767dca"
+            },
+            "target": {
+              "cell": "7397ade1-f88f-43ba-9ee2-7ea94ef8ca39",
               "port": "677533b7-b230-4dfc-95f2-f8220f6f7d44"
             },
             "vertices": []
@@ -707,6 +754,126 @@
               "storesInventory": false,
               "threats": []
             }
+          },
+          {
+            "position": {
+              "x": -335,
+              "y": -90
+            },
+            "size": {
+              "width": 220,
+              "height": 210
+            },
+            "attrs": {
+              "text": {
+                "text": "Backend Presensi"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "677533b7-b230-4dfc-95f2-f8220f6f7d44"
+                },
+                {
+                  "group": "right",
+                  "id": "c25853bf-b667-4a58-901d-b09951447fa2"
+                },
+                {
+                  "group": "bottom",
+                  "id": "12c6f6a8-f402-4be5-be7e-4a9f8483448c"
+                },
+                {
+                  "group": "left",
+                  "id": "93c94ff4-4e87-42b2-87bd-75681ced13ee"
+                }
+              ]
+            },
+            "id": "7397ade1-f88f-43ba-9ee2-7ea94ef8ca39",
+            "data": {
+              "type": "tm.Process",
+              "name": "Backend Presensi",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 13
           }
         ],
         "description": "Aliran data utama sistem presensi"
