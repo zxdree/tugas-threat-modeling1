@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "",
+  "released_at": "2026-11-18",
+  "summary": {
+    "title": "STRIDE - Kasus A - Kelompok 01",
+    "owner": "Adre",
+    "description": "Sistem presensi perkuliahan berbasis web menggunakan QR code (berlaku 5 menit). Ruang lingkup mencakup pembukaan/penutupan sesi oleh dosen, pemindaian oleh mahasiswa, validasi ke layanan autentikasi, pencatatan ke database akademik, dan rekap oleh admin. Asumsi: Komunikasi menggunakan HTTPS dan sesi pengguna menggunakan token JWT.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD Presensi QR Code",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Aliran data utama sistem presensi"
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "Adre",
+    "threatTop": 0
+  }
+}
